@@ -64,8 +64,8 @@ require (
 	github.com/kr/pty v1.1.8
 	github.com/krishicks/yaml-patch v0.0.10
 	github.com/lib/pq v1.3.0
-	github.com/mattn/go-colorable v0.1.4
-	github.com/mattn/go-isatty v0.0.10
+	github.com/mattn/go-colorable v0.1.6
+	github.com/mattn/go-isatty v0.0.12
 	github.com/mattn/go-sqlite3 v1.10.0 // indirect
 	github.com/maxbrunsfeld/counterfeiter/v6 v6.2.2
 	github.com/mgutz/ansi v0.0.0-20170206155736-9520e82c474b
@@ -104,10 +104,9 @@ require (
 	go.opentelemetry.io/otel/exporter/trace/jaeger v0.2.1
 	go.opentelemetry.io/otel/exporter/trace/stackdriver v0.2.1
 	golang.org/x/crypto v0.0.0-20200220183623-bac4c82f6975
-	golang.org/x/net v0.0.0-20191209160850-c0dbc17a3553 // indirect
 	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
 	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e
-	golang.org/x/sys v0.0.0-20191220220014-0732a990476f // indirect
+	golang.org/x/tools v0.0.0-20200423205358-59e73619c742 // indirect
 	google.golang.org/genproto v0.0.0-20191223191004-3caeed10a8bf // indirect
 	google.golang.org/grpc v1.26.0
 	gopkg.in/asn1-ber.v1 v1.0.0-20181015200546-f715ec2f112d // indirect
