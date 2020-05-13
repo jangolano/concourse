@@ -33,3 +33,8 @@ Currently the only API action that can be limited in this way is `ListAllJobs` -
 
 * Fix a bug that when `--log-db-queries` is enabled only part of DB queries were logged. Expect to see more log outputs when using the flag now. #5520
 
+#### <sub><sup><a name="5604" href="#5604">:link:</a></sup></sub> fix
+
+* Previously, if a build was aborted while running a step that has an `on_error` hook, the build would finish with `errored` status rather than `aborted`.
+
+  It will now be correctly given the `aborted` status. #5604
